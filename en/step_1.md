@@ -1,19 +1,21 @@
-## Introduction
+**Concatenation** is a fancy word which just means "joining strings together". A string
+consists of one or more letters, numbers or symbols and is enclosed by quotes.
 
-Add project description here. What will learners be making?
+This is a literal string - `"My favourite animal is a "`
+This is a variable which contains a string - `var animal = "cat";`
 
-### What you will make
+You can join strings together using a `+` like this:
 
-Add something here to showcase here, for example:
+```JavaScript
+var new_string = "My favourite animal is a " + animal;
+```
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
+This code creates a variable called `new_string` and sets its value to `"My favourite animal is a cat"`.
 
-Add instructions here. These should explain either how the finished project will work, or explain how to interact with the content above.
+You can join more than one string together at a time - just use a `+` everywhere you need to join strings.
 
-### What you will learn
-
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
-
-+ [Add curriculum strand/level description.](https://www.raspberrypi.org/curriculum/strand/level)
+```JavaScript
+var name = "Laura";
+var animal = "cat";
+var new_string = "My name is " + name + " and my favourite animal is a " + animal;
+```
